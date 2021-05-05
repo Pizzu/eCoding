@@ -13,6 +13,8 @@
 		7F10BD51264352CE00BC7D6F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F10BD50264352CE00BC7D6F /* Preview Assets.xcassets */; };
 		7F10BD53264352CE00BC7D6F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F10BD52264352CE00BC7D6F /* Persistence.swift */; };
 		7F10BD56264352CE00BC7D6F /* eCoding.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7F10BD54264352CE00BC7D6F /* eCoding.xcdatamodeld */; };
+		7F10BD612643562A00BC7D6F /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F10BD5F2643562A00BC7D6F /* ImagePicker.swift */; };
+		7F10BD622643562A00BC7D6F /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F10BD602643562A00BC7D6F /* VisualEffectBlur.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		7F10BD52264352CE00BC7D6F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		7F10BD55264352CE00BC7D6F /* eCoding.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = eCoding.xcdatamodel; sourceTree = "<group>"; };
 		7F10BD57264352CE00BC7D6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F10BD5F2643562A00BC7D6F /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		7F10BD602643562A00BC7D6F /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		7F10BD48264352CC00BC7D6F /* eCoding */ = {
 			isa = PBXGroup;
 			children = (
+				7F10BD5E2643561C00BC7D6F /* Helpers */,
 				7F10BD49264352CC00BC7D6F /* eCodingApp.swift */,
 				7F10BD4B264352CC00BC7D6F /* ContentView.swift */,
 				7F10BD4D264352CE00BC7D6F /* Assets.xcassets */,
@@ -73,6 +78,15 @@
 				7F10BD50264352CE00BC7D6F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7F10BD5E2643561C00BC7D6F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7F10BD5F2643562A00BC7D6F /* ImagePicker.swift */,
+				7F10BD602643562A00BC7D6F /* VisualEffectBlur.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +160,8 @@
 			files = (
 				7F10BD53264352CE00BC7D6F /* Persistence.swift in Sources */,
 				7F10BD56264352CE00BC7D6F /* eCoding.xcdatamodeld in Sources */,
+				7F10BD612643562A00BC7D6F /* ImagePicker.swift in Sources */,
+				7F10BD622643562A00BC7D6F /* VisualEffectBlur.swift in Sources */,
 				7F10BD4C264352CC00BC7D6F /* ContentView.swift in Sources */,
 				7F10BD4A264352CC00BC7D6F /* eCodingApp.swift in Sources */,
 			);
